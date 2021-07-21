@@ -1,0 +1,18 @@
+timeout : 40
+interval : 0.5
+url: 'https://www.d3a.io/login'
+project: 'gs_project'
+log:
+    type: 'CONSOLE,FILE'
+    level: 'DEBUG'
+    file: 'bigdata_python.log'
+
+###############Users###################
+ui:
+    gs:
+        base_url: 'https://www.d3a.io/login'
+        browser: 'CHROME'
+        test_user:
+             user_admin:
+                 Username: 'seleniumragu@gmail.com'
+                 Password: 'Test@123'
